@@ -36,8 +36,6 @@ public class StringCalc {
 			String[] t = sNegatives.split(",");
 			for (int a = 0; a < t.length; a++) {
 				negatives.add(Integer.parseInt(t[a]));
-				if (negatives.get(a) != Math.abs(negatives.get(a))) { //What to do with negatives
-				}
 			}
 			for (int num: negatives) {
 				if (num != Math.abs(num)) {
