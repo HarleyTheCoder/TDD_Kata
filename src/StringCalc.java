@@ -2,9 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-//I was not in class to learn about this and can't view the lecture, so I did my best.
-
-//I could not get the assertions to run automatically so I did what I could
 
 public class StringCalc {
 
