@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 
 public class StringCalc {
@@ -10,7 +9,6 @@ public class StringCalc {
 		
 	}
 	
-	//Idea: replace all non digits with ~, then split into array
 	public static int add(String s) {
 		
 		if (s.contentEquals("")) { //If it's empty, return 0
@@ -90,7 +88,7 @@ public class StringCalc {
 		}
 
 		try {
-			if (s.equals(",")) { //if it's blank or they add a non numeric
+			if (s.equals(",")) { //if they add a non numeric
 				return 0;
 			} else if (sEdit.length == 1) { //if there's 1 number
 				return Integer.parseInt(sEdit[0]);
